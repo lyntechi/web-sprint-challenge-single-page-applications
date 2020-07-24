@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Form from "./Form";
-import Confirmation from "./Confirmation";
 import { Route, Link} from "react-router-dom";
 import Home from './Home';
 import formSchema from '../Validation/formSchema'
@@ -128,9 +127,7 @@ useEffect(()=>{
         errors={formErrors}/>
       </Route>
 
-      <Route exact path="/pizza/confirmation">
-        <Confirmation />
-      </Route>
+    
       <Route exact path="/"><Home /></Route>
       
     </div>
