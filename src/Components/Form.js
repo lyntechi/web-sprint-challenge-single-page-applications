@@ -92,7 +92,7 @@ const onInputChange = event => {
           onChange={onCheckboxChange}
         />
 
-        <label htmlFor="tomatoes">Tomatoes</label>
+        <label htmlFor="tomatoes"> Diced Tomatoes</label>
         <input
           type="checkbox"
           id="tomatoes"
@@ -101,7 +101,7 @@ const onInputChange = event => {
           onChange={onCheckboxChange}
         />
 
-        <label htmlFor="garlic">Garlic</label>
+        <label htmlFor="garlic">Roasted Garlic</label>
         <input
           type="checkbox"
           id="garlic"

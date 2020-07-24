@@ -10,7 +10,7 @@ const formSchema = yup.object().shape({
     .oneOf(['small', 'medium', 'large']),
     instructions: yup
     .string()
-    .required('Please Enter Any Instructions, If none enter N/A')
+    .required('If no instructions enter N/A')
 
 })
 
