@@ -16,7 +16,7 @@ describe('Testing our form', ()=>{
       //Testing that you can select multiple toppings
       cy.get('#size').select('Small')
       cy.get('input[type="checkbox"]').check().should('be.checked')
-      cy.get('textarea').type('Ready to submit form')
+    //   cy.get('textarea').type('Ready to submit form')
       cy.get('.btnOrder').click()
      
 

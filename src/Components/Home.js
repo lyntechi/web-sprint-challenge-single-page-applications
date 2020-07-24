@@ -13,7 +13,7 @@ export default function Home(){
       </h1>
 
       <Link to="/pizza">
-        <button className="homeBtn">Want Pizza? Click Here!</button>
+        <button className="homeBtn">Order Now!</button>
       </Link>
       </header>
 

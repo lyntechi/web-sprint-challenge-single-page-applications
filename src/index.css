@@ -4,15 +4,26 @@
   max-width: 100%;
   padding: 0;
   margin: 0;
+ 
 }
 body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
-    font-family: 'Play', sans-serif;
+   
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+body{
+  background: linear-gradient(58deg, #a6ac71, #595f4d);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 8s ease infinite;
+  -moz-animation: AnimationName 8s ease infinite;
+  -o-animation: AnimationName 8s ease infinite;
+  animation: AnimationName 8s ease infinite;
+  font-family: 'Play', sans-serif;
 }
 
 code {
@@ -36,31 +47,36 @@ header{
   align-items: center;
   background-image: url( https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
   width: 100%;
-  height: 60vh;
+  height: 56vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
+  margin: 0 auto;
 }
 
 .favoriteFood{
-  margin-top: 200px;
+  margin-top: 100px;
   font-size: 4.5rem;
- color: rgb(250, 130, 100);
- background-color: white;
+ /* color: rgb(250, 130, 100); */
+ /* background-color: white; */
  opacity: 0.7;
+ font-family: 'Monoton', cursive; 
+ color: ghostwhite;
 
 }
 .homeBtn{
-    padding: 25px;
+    padding: 20px;
     width: 500px;
     margin-top: 50px;;
-    background-color: darkred;
-    font-size: 1.7rem;
+    background-color: rgb(64, 70, 62);
+    font-size: 2rem;
     font-family: 'Play', sans-serif;
     color: white;
-    border-radius: 30px;
+
+    font-family: 'Rock Salt', cursive;
+    letter-spacing: 10px
     
     
 }
@@ -68,37 +84,37 @@ header{
       background-color: grey;
       opacity: 0.7;
       color: white;
+      font-family: 'Rock Salt', cursive;
 }
 
-body{
-  background-color: rgb(130,40,40);
- 
- 
-}
+
 
 .routeBtns{
   display: flex;
   flex-direction:row;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
+  align-items: center;
+
 
 
   
 }
 
 .btn1{
-  padding: 15px;
+  padding: 10px;
   width: 160px;
   background-color: white;
   font-family: 'Play', sans-serif;
   font-size: 1.3rem;
   font-weight: bold;
   margin: 10px;
+ 
   
 
 }
 
 .btn2{
-  padding: 15px;
+  padding: 10px;
   width: 160px;
   background-color: white;
   font-family: 'Play', sans-serif;
@@ -106,13 +122,17 @@ body{
   font-weight: bold;
   margin: 10px;
   
+  
 }
 
 .lambdaEats{
- margin-right: 50px;
- margin-top: 15px;
- font-size: 3rem;
+
+
+ font-size: 3.5rem;
  color: ghostwhite;
+ margin-right: 40px;
+ letter-spacing: 4px;
+ font-family: 'Rock Salt', cursive;
  
 }
 .form{
@@ -162,8 +182,9 @@ textarea{
 .btnOrder{
   padding: 20px;
   margin: 20px;
-  font-family: 'Play', sans-serif;
+  /* font-family: 'Play', sans-serif; */
   font-size: 1.2rem;
+  font-family: 'Rock Salt', cursive;
 }
 
 .name{
@@ -218,10 +239,10 @@ p{
   justify-content:center;
 }
 .img1{
-  width:400px; 
-  height: 240px; 
+  width:530px; 
+  height: 350px; 
   position: relative;
-  margin: 40px;
+  margin: 50px 50px;
 }
 
 

@@ -111,7 +111,7 @@ useEffect(()=>{
       
       <div className="routeBtns">
         <h1 className="lambdaEats">Lambda Eats</h1>
-        <Link to="/"><button className="btn1">Home</button></Link>
+      <button className="btn1">  <Link to="/">Home</Link></button>
         <button className="btn2">Help</button>
       </div>
 
