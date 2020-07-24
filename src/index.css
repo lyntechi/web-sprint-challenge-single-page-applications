@@ -76,15 +76,17 @@ header{
     color: white;
 
     font-family: 'Rock Salt', cursive;
-    letter-spacing: 10px
-    
+    letter-spacing: 10px;
+    transition:2s;
     
 }
 .homeBtn:hover{
-      background-color: grey;
-      opacity: 0.7;
-      color: white;
+     
+      /* opacity: 0.8; */
+      color: rgb(44, 40, 40);
       font-family: 'Rock Salt', cursive;
+      color:rgb(51, 47, 47);
+      background-color:rgb(119, 168, 121);
 }
 
 
